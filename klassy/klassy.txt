@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <title>Klassy Cafe - Restaurant HTML Template</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="wrapper">
+            <a href="index.html" class="logo">
+                <span>klassy cafe</span>
+            </a>
+            <ul class="nav_menu">
+                <li><a href="#top" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#chefs">Chefs</a></li>
+                <li class="sub_menu">
+                    <a class="chevron">Features</a>
+                    <ul>
+                        <li><a href="#">Features Page 1</a></li>
+                        <li><a href="#">Features Page 2</a></li>
+                        <li><a href="#">Features Page 3</a></li>
+                        <li><a href="#">Features Page 4</a></li>
+                    </ul>
+                </li>
+                <li><a href="#reservation">Contact Us</a></li>
+            </ul>
+            <a class="burger">
+                <span>Menu</span>
+            </a>
+        </nav>
+    </header>
+    <section class="hero">
+        <div>
+            <h1>THE BEST EXPERIENCE</h1>
+            <h2>KlassyCafe</h2>
+            <a href="#reservation">Make A Reservation</a>
+        </div>
+        <figure><img src="images/slide-02.jpg" alt="Klasse Cafe interieur"></figure>
+    </section>
+
+
+    <section class="about_us wrapper">
+        <article>
+            <h3>About Us</h3>
+            <h2>We leave a delicious memory for you</h2>
+            <p>Klassy Cafe is one of the best <a href="https://triptyk.eu" target="_blank"
+                    rel="sponsored">restaurant HTML templates</a> with Bootstrap v4.5.2
+                CSS framework (HAHAHA! YOU WISH!). You can download and feel free to use this website template layout for
+                your restaurant business (Nope!). You are allowed to use this template for commercial purposes (Over my dead body).</p>
+            <p>
+                You are NOT allowed to redistribute the template ZIP file on any template
+                donwnload website. Please contact us for more information (No thanks).</p>
+            <aside>
+                <figure><img src="images/about-thumb-01.jpg" alt="Gyozas"></figure>
+                <figure><img src="images/about-thumb-02.jpg" alt="Dupmlings"></figure>
+                <figure><img src="images/about-thumb-03.jpg" alt="Tea"></figure>
+            </aside>
+        </article>
+        <a rel="nofollow" class="video" href="http://youtube.com"> <img src="images/about-video-bg.jpg"
+                alt="People enjoying a meal in the Klassy restaurant "></a>
+
+
+
+
+    </section>
+    <section class="our_menu">
+        <div class="wrapper titles_wrapper">
+            <h3>Our Menu</h3>
+            <h2>Our selection of cakes with quality taste</h2>
+        </div>
+        <div class="menus">
+            <article>
+                <span class="price">$14</span>
+                <img src="images/menu-item-01.jpg" alt="Chocolate Cake">
+                <aside>
+                    <h4 class='title'>Chocolate Cake</h4>
+                    <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sedii do eiusmod teme.</p>
+                    <a href="#reservation" class="chevron">Make Reservation</a>
+                </aside>
+
+            </article>
+            <article>
+
+                <span class="price">$22</span>
+                <img src="images/menu-item-02.jpg" alt="Klassy Pancake">
+                <aside>
+                    <h4 class='title'>Klassy Pancake</h4>
+                    <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sedii do eiusmod teme.</p>
+                    <a href="#reservation" class="chevron">Make Reservation</a>
+                </aside>
+            </article>
+            <article>
+                <span class="price">$18</span>
+                <img src="images/menu-item-03.jpg" alt="Tall Klassy Bread">
+                <aside>
+                    <h4 class='title'>Tall Klassy Bread</h4>
+                    <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sedii do eiusmod teme.</p>
+                    <a href="#reservation" class="chevron">Make Reservation</a>
+                </aside>
+            </article>
+            <article>
+                <span class="price">$10</span>
+                <img src="images/menu-item-04.jpg" alt="Blueberry CheeseCake">
+                <aside>
+                    <h4 class='title'>Blueberry CheeseCake</h4>
+                    <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sedii do eiusmod teme.</p>
+                    <a href="#reservation" class="chevron">Make Reservation</a>
+                </aside>
+            </article>
+            <article>
+                <span class="price">$8.5</span>
+                <img src="images/menu-item-05.jpg" alt="">
+                <aside>
+                    <h4 class='title'>Classy Cup Cake</h4>
+                    <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sedii do eiusmod teme.</p>
+                    <a href="#reservation" class="chevron">Make Reservation</a>
+                </aside>
+            </article>
+        </div>
+        </div>
+
+    </section>
+    <section class="our_chefs wrapper">
+        <h3>Our Chefs</h3>
+        <h2>We offer the best ingredients for you</h2>
+        <div>
+            <article>
+
+                <figure><img src="images/chefs-01.jpg" alt="Chef #1">
+                    <figcaption>
+                        <ul class="social_icons">
+                            <li><a href="#" class="fb"><span>Facebook</span></a></li>
+                            <li><a href="#" class="tw"><span>Twitter</span></a></li>
+                            <li><a href="#" class="in"><span>Instagram</span></a></li>
+                        </ul>
+                    </figcaption>
+                </figure>
+
+                <h4>Randy Walker</h4>
+                <span>Pastry Chef</span>
+            </article>
+            <article>
+
+                <figure>
+                    <img src="images/chefs-02.jpg" alt="Chef #2">
+                    <figcaption>
+                        <ul class="social_icons">
+                            <li><a href="#" class="fb"><span>Facebook</span></a></li>
+                            <li><a href="#" class="tw"><span>Twitter</span></a></li>
+                            <li><a href="#" class="in"><span>Instagram</span></a></li>
+                        </ul>
+                    </figcaption>
+                </figure>
+                <h4>David Martin</h4>
+                <span>Cookie Chef</span>
+            </article>
+
+
+            <article>
+
+                <figure><img src="images/chefs-03.jpg" alt="Chef #3">
+                    <figcaption>
+                        <ul class="social_icons">
+                            <li><a href="#" class="fb"><span>Facebook</span></a></li>
+                            <li><a href="#" class="tw"><span>Twitter</span></a></li>
+                            <li><a href="#" class="in"><span>Instagram</span></a></li>
+                        </ul>
+                    </figcaption>
+                </figure>
+                <h4>Peter Perkson</h4>
+                <span>Pancake Chef</span>
+            </article>
+        </div>
+
+    </section>
+    <section class="contact_us">
+        <div class="wrapper">
+            <div class="container">
+                <h3>Contact Us</h3>
+                <h2>Here You Can Make A Reservation Or Just walkin to our cafe</h2>
+
+                <p>Donec pretium est orci, non vulputate arcu hendrerit a. Fusce a eleifend riqsie, namei
+                    sollicitudin urna diam, sed commodo purus porta ut.</p>
+
+                <div class="infos">
+                    <aside>
+                        <h4>Phone Numbers</h4>
+                        <a href="#">080-090-0990</a><a href="#">080-090-0880</a>
+                    </aside>
+                    <aside>
+                        <h4>Emails</h4>
+                        <a href="#">hello@company.com</a>
+                        <a href="#">info@company.com</a>
+                    </aside>
+                </div>
+
+            </div>
+            <form>
+                <h4>Table Reservation</h4>
+                <fieldset>
+                    <p>
+                        <label for="name">Your Name</label>
+                        <input name="name" type="text" id="name">
+                    </p>
+                    <p>
+                        <label for="email">Your Email Address</label>
+                        <input name="email" type="email" id="email">
+                    </p>
+                    <p>
+                        <label for="phone">Phone Number</label>
+                        <input name="phone" type="phone" id="phone">
+                    </p>
+                    <p>
+                        <label for="number-guests">Number Of Guests</label>
+                        <select name="guests_number" id="number-guests">
+
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="date">Date</label>
+                        <input name="date" id="date" type="date" placeholder="dd/mm/yyyy">
+                    </p>
+
+
+                    <p>
+                        <label for="time">Time</label>
+                        <select name="time" id="time">
+                            <option>Time</option>
+                            <option value="Breakfast" id="Breakfast">Breakfast</option>
+                            <option value="Lunch" id="Lunch">Lunch</option>
+                            <option value="Dinner" id="Dinner">Dinner</option>
+                        </select>
+                    </p>
+                    <p class="msg">
+                        <label for="message">Message</label>
+                        <textarea name="message" rows="6" id="message"></textarea>
+                    </p>
+                </fieldset>
+                <button type="submit" id="form-submit">Make A
+                    Reservation</button>
+
+            </form>
+        </div>
+    </section>
+    <section class="offers">
+        <div class="wrapper ">
+            <div class="titles_wrapper">  
+            <h3>Klassy Week</h3>
+            <h2>This Week’s Special Meal Offers</h2>
+        </div>
+            <ul class="tabs">
+                <li><a href='#tabs-1' class="active"><img src="images/tab-icon-01.png" alt="Breakfast">Breakfast</a>
+                </li>
+                <li><a href='#tabs-2'><img src="images/tab-icon-02.png" alt="Lunch">Lunch</a></a></li>
+                <li><a href='#tabs-3'><img src="images/tab-icon-03.png" alt="Dinner">Dinner</a></a></li>
+            </ul>
+            <div class="meals">
+                <article>
+                    <figure><img src="images/tab-item-01.png" alt="Fresh Chicken Salad"></figure>
+                    <div>
+                        <h4>Fresh Chicken Salad</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur koit
+                            adipiscing elit, sed do.</p>
+                    </div>
+                    <aside>$10.50</aside>
+                </article>
+                <article>
+                    <figure><img src="images/tab-item-02.png" alt="Orange Juice"></figure>
+                    <div>
+                        <h4>Orange Juice</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur koit
+                            adipiscing elit, sed do.</p>
+                    </div>
+                    <aside>$8.50</aside>
+                </article>
+                <article>
+                    <figure><img src="images/tab-item-03.png" alt="Fruit Salad"></figure>
+                    <div>
+                        <h4>Fruit Salad</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur koit
+                            adipiscing elit, sed do.</p>
+                    </div>
+                    <aside>$9.90</aside>
+                </article>
+                <article>
+                    <figure><img src="images/tab-item-04.png" alt="Eggs Omelette"></figure>
+                    <div>
+                        <h4>Eggs Omelette</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur koit
+                            adipiscing elit, sed do.</p>
+                    </div>
+                    <aside>$6.50</aside>
+                </article>
+                <article>
+                    <figure><img src="images/tab-item-05.png" alt=""></figure>
+                    <div>
+                        <h4>Dollma Pire</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur koit
+                            adipiscing elit, sed do.</p>
+                    </div>
+                    <aside>$5.00</aside>
+                </article>
+                <article>
+                    <figure><img src="images/tab-item-06.png" alt="Omelette & Cheese"></figure>
+                    <div>
+                        <h4>Omelette & Cheese</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur koit
+                            adipiscing elit, sed do.</p>
+                    </div>
+                    <aside>$4.10</aside>
+                </article>
+
+            </div>
+        </div>
+
+
+    </section>
+    <footer>
+        <div class="wrapper">
+            <ul class="social_icons">
+                <li><a href="#" class="fb"><span>Facebook</span></a></li>
+                <li><a href="#" class="tw"><span>Twitter</span></a></li>
+                <li><a href="#" class="in"><span>Instagram</span></a></li>
+            </ul>
+
+
+            <a href="index.html"><img src="images/white-logo.png" alt="Klassy Logo"></a>
+
+
+            <p>© Copyright Klassy Cafe Co.
+
+                Design: TemplateMo
+            </p>
+        </div>
+</body>
+
+</html>

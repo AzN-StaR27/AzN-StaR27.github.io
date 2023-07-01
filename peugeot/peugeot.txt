@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel='icon' href='img/favicons/favicon.ico' type='image/x-icon'>
+    <title>PEUGEOT Belgique | Constructeur automobile | Motion & Emotion</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <a href="/" title="Accueil" class="logo"><span>Peugeot</span></a>
+            <ul>
+                <li><a href="#">Gamme</a></li>
+                <li><a href="#">Professional</a></li>
+                <li><a href="#">Occasions</a></li>
+                <li><a href="#">Financement et Services</a></li>
+                <li><a href="#">Après-vente</a></li>
+                <li><a href="#">Innovations</a></li>
+                <li><a href="#">Offres</a></li>
+            </ul>
+        </nav>
+
+        <section class="slider">
+            <img src="img/slider-no-text.png" alt="Peugeot new partner, Peugeot Expert et Peugeot Boxer">
+            <h1><span>Peugeot</span> pro days</h1>
+            <p>Décuplez votre efficacité</p>
+            <div>
+                <h3>Peugeot Boxer</h3>
+                <p>Jusqu'à <strong>14.800€</strong> d'avantages</p>
+            </div>
+            <ul>
+                <li>New Partner</li>
+                <li>Expert</li>
+                <li>Boxer</li>
+            </ul>
+            <a href="#" class="btn"><span>Découvrez les offres</span></a>
+        </section>
+        <section class="ctas">
+            <h2>Allez plus loin</h2>
+            <a href="#">Faites un essai</a>
+            <a href="#">Trouvez un véhicule de stock</a>
+            <a href="#">Recevez une estimation de reprise</a>
+            <a href="#">Trouvez un point de vente</a>
+        </section>
+        <section class="offers">
+            <h2>Offres du moment</h2>
+            <article>
+                <figure>
+                    <img src="img/momentCar1.jpg" alt="Voiture du moment">
+                </figure>
+                <h3>SUV 2008</h3>
+                <p>À partir de 13.390 €</p>
+                <a href="#" class="btn btn_neg"><span>J'en profite</span></a>
+            </article>
+            <article>
+                <figure>
+                    <img src="img/momentCar2.jpg" alt="Voiture du moment">
+                </figure>
+                <h3>SUV 3008</h3>
+                <p>Avantages jusqu'à 5.100 €</p>
+                <a href="#" class="btn btn_neg"><span>J'en profite</span></a>
+            </article>
+            <article>
+                <figure>
+                    <img src="img/momentCar3.jpg" alt="Voiture du moment">
+                </figure>
+                <h3>SUV 5008</h3>
+                <p>Avantages jusqu'à 5.000 €</p>
+                <a href="#" class="btn btn_neg"><span>J'en profite</span></a>
+            </article>
+        </section>
+        <section class="best_sellers">
+            <h2>Nos best sellers</h2>
+            <article>
+                <h3>SUV 3008</h3>
+                <img src="img/bestCar1.png" alt="Meilleur voiture"> <a href="#" class="btn"><span>Découvrez</span></a>
+            </article>
+            <article>
+                <h3>SUV 5008</h3>
+                <img src="img/bestCar2.png" alt="Meilleur voiture"><a href="#" class="btn"><span>Découvrez</span></a>
+            </article>
+            <article>
+                <h3>Rifter</h3>
+                <img src="img/bestCar3.png" alt="Meilleur voiture"><a href="#" class="btn"><span>Découvrez</span></a>
+            </article>
+
+        </section>
+        <section class="news">
+            <h2>Actualité</h2>
+            <a href="#" class="more">Voir plus</a>
+            <div>
+                <article>
+                    <figure><img src="img/actu1-no-text.png" alt="Actualité 1">
+                        <figcaption>New SUV Peugeot&nbsp;2008 <span>Escape the ordinary</span></figcaption>
+                    </figure>
+
+                    <p>
+                        Découvrez le nouveau PEUGEOT&nbsp;2008, le SUV compact et polyvalent au design exaltant,
+                        offrant une expérience de conduite étendue, avec l'innovant PEUGEOT i-Cockpit® 3D, des
+                        technologies haut de gamme et un choix de motorisations performantes et efficientes, en
+                        thermique et en <a href="#">électrique</a>.
+                    </p>
+                    <a href="#" class="btn btn_neg"><span>Tenez-moi au courant</span></a>
+
+                </article>
+                <article>
+                    <figure>
+                        <img src="img/actu2-no-text.png" alt="Actualité 2">
+                        <figcaption>Des questions mobilité&nbsp;?<span>Guidemobilite.be</span></figcaption>
+                    </figure>
+
+                    <p>
+                        Entre les changements de législation, l’apparition de zones à circulation restreinte,
+                        de nouvelles motorisations, de technologies d’assistance toujours plus poussées et les
+                        évolutions qui s’opèrent sur le marché, l’automobile est entrée dans une phase de
+                        transition pratiquement sans précédent dans l’histoire. Et il est donc compliqué pour
+                        les utilisateurs de s’y retrouver et de faire le bon choix. En ce mois de septembre,
+                        Peugeot a lancé son tout nouveau guide mobilité en ligne : <a
+                            href="#">www.guidemobilite.be</a>
+                    </p>
+                    <a href="#" class="btn btn_neg"><span>Découvre le guide mobilité</span></a>
+                </article>
+            </div>
+        </section>
+        <footer>
+            <div>
+                <h3>Besoin d'aide ?</h3>
+                <ul>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#">Assistance</a>
+                    </li>
+                    <li>
+                        <a href="#">Points de vente</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3>Gamme Peugeot</h3>
+                <ul>
+                    <li>
+                        <a href="#">Citadines</a>
+                    </li>
+                    <li>
+                        <a href="#">Berlines</a>
+                    </li>
+                    <li>
+                        <a href="#">SUV</a>
+                    </li>
+                    <li>
+                        <a href="#">Breaks</a>
+                    </li>
+                    <li>
+                        <a href="#">Familiales</a>
+                    </li>
+                    <li>
+                        <a href="#">Les sportives Peugeot</a>
+                    </li>
+                    <li>
+                        <a href="#">Electriques</a>
+                    </li>
+                    <li>
+                        <a href="#">Utilitaires</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3>Contacter notre service client</h3>
+                <a href="tel:+3278151615" class="tel">078 15 16 15</a>
+                <ul class="social">
+                    <li><a href="#"><img src="img/facebook.svg" alt="Facebook"></a></li>
+                    <li><a href="#"> <img src="img/youtube.svg" alt="Youtube"></a></li>
+                    <li><a href="#"><img src="img/instagram.svg" alt="Instagram"></a></li>
+                    <li><a href="#"> <img src="img/linkedin.svg" alt="Linkedin"></a></li>
+                </ul>
+            </div>
+            <a href="#" class="btn btn_neg mark"><span>Marque et technologie</span></a>
+            <a href="#" class="btn btn_neg techno"><span>Recevez une estimation de reprise</span></a>
+
+            
+        </footer>
+        <ul class="sub_footer">
+            <li>
+                <a href="#">Informations légales</a>
+            </li>
+            <li>
+                <a href="#">Politique de confidentialité</a>
+            </li>
+            <li>
+                <a href="#">Cookies</a>
+            </li>
+            <li>
+                <a href="#">Mentions légales données personelles</a>
+            </li>
+            <li>
+                <a href="#">Sponsoring</a>
+            </li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

@@ -16,11 +16,11 @@ body {
 }
 
 .top-part {
-  height: 40vh;
+  min-height: 40vh;
 }
 
 .bottom-part {
-  height: 60vh;
+  min-height: 60vh;
 }
 
 h1,

@@ -2747,6 +2747,10 @@ input[type="radio"]:focus + label:before {
   position: relative;
 }
 
+#MainProjectImg {
+  border-radius: 20px;
+}
+
 /* .image img {
 			 display: block; 
 		} */

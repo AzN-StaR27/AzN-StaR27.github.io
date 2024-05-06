@@ -278,7 +278,6 @@ i {
 p {
   text-align: justify;
   margin: 0 0 2rem 0;
-  height: 100px;
 }
 
 h1,
@@ -309,7 +308,7 @@ h6 a {
 h1 {
   font-size: 4rem;
   line-height: 1.1;
-  margin: 2rem 0 2rem 0;
+  margin: 2rem 0;
 }
 
 .animate-character {
@@ -2845,13 +2844,12 @@ ul.actions {
   cursor: default;
   list-style: none;
   margin-left: -1rem;
-  margin-top: 100px;
   padding-left: 0;
 }
 
 ul.actions li {
-  padding: 0 0 0 1rem;
   vertical-align: middle;
+  margin-top: 20px;
 }
 
 ul.actions.special {
@@ -3454,7 +3452,7 @@ body.is-preload #wrapper.fade-in:before {
 
 #intro {
   color: #ffffff;
-  padding: 0.5rem 4rem 6rem 4rem;
+  /* padding: 0.5rem 4rem 6rem 4rem; */
   -moz-align-items: center;
   -webkit-align-items: center;
   -ms-align-items: center;
@@ -3489,7 +3487,7 @@ body.is-preload #wrapper.fade-in:before {
 }
 
 #intro img {
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
 }
 
 #intro a {
@@ -3566,7 +3564,7 @@ body.is-preload #wrapper.fade-in:before {
 }
 
 #intro h1 {
-  font-size: 5rem;
+  font-size: 3rem;
   line-height: 1;
 }
 

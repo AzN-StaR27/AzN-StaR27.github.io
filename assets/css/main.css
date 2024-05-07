@@ -2849,7 +2849,7 @@ ul.actions {
 
 ul.actions li {
   vertical-align: middle;
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 ul.actions.special {
@@ -3632,7 +3632,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 @media screen and (max-width: 980px) {
   #intro {
     padding: 4rem 4rem 2rem 4rem;
-    min-height: 90vh;
+    min-height: 100vh;
   }
 
   #intro p br {
@@ -3647,7 +3647,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 @media screen and (max-width: 736px) {
   #intro {
     padding: 3rem 2rem 1rem 2rem;
-    min-height: 80vh;
+    min-height: 100vh;
   }
 
   #intro h1 {
@@ -3986,6 +3986,12 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 #main > .post.featured {
   text-align: center;
 }
+
+#main h2 a:hover{
+  color: #ffa01b !important;
+  transition: 0.5s;
+}
+
 
 @media screen and (max-width: 1280px) {
   #main > .post {

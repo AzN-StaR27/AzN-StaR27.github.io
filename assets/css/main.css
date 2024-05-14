@@ -4109,11 +4109,20 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   #main > * {
     padding: 2rem 2rem 0.1rem 2rem;
   }
+  #wide-screen {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 480px) {
   #main {
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 737px) {
+  #small-screen {
+    display: none;
   }
 }
 

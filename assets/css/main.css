@@ -2744,6 +2744,11 @@ input[type="radio"]:focus + label:before {
 
 #MainProjectImg {
   border-radius: 20px;
+  border: none;
+}
+
+#MainProjectImg:hover {
+  border: 2px solid #ffa01b;
 }
 
 /* .image img {

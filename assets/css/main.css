@@ -308,7 +308,7 @@ h6 a {
 h1 {
   font-size: 4rem;
   line-height: 1.1;
-  margin: 2rem 0;
+  margin: 0 0 2rem 0;
 }
 
 .animate-character {
@@ -2244,10 +2244,6 @@ button,
   white-space: nowrap;
 }
 
-.button {
-  margin-bottom: 30px;
-}
-
 input[type="submit"].icon:before,
 input[type="reset"].icon:before,
 input[type="button"].icon:before,
@@ -2843,13 +2839,6 @@ ul.actions {
   display: flex;
   cursor: default;
   list-style: none;
-  margin-left: -1rem;
-  padding-left: 0;
-}
-
-ul.actions li {
-  vertical-align: middle;
-  margin: 20px 0;
 }
 
 ul.actions.special {
@@ -3008,12 +2997,12 @@ ol li {
 
 ul {
   list-style: disc;
-  margin: 0 0 2rem 0;
-  padding-left: 1rem;
 }
 
-ul li {
-  padding-left: 0.5rem;
+ul.actions li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 ul.divided {
@@ -3461,6 +3450,9 @@ body.is-preload #wrapper.fade-in:before {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
   -moz-flex-direction: column;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
@@ -3468,7 +3460,6 @@ body.is-preload #wrapper.fade-in:before {
   -moz-justify-content: -moz-flex-end;
   -webkit-justify-content: -webkit-flex-end;
   -ms-justify-content: -ms-flex-end;
-  justify-content: center;
   -moz-transition: opacity 1s ease, -moz-transform 1s ease;
   -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
   -ms-transition: opacity 1s ease, -ms-transform 1s ease;
@@ -3477,17 +3468,13 @@ body.is-preload #wrapper.fade-in:before {
   cursor: default;
   text-align: center;
   z-index: 1;
-  min-height: 100vh;
+  min-height: 105vh;
 }
 
 #intro input,
 #intro select,
 #intro textarea {
   color: #ffffff;
-}
-
-#intro img {
-  margin-bottom: 1rem;
 }
 
 #intro a {
@@ -3564,7 +3551,7 @@ body.is-preload #wrapper.fade-in:before {
 }
 
 #intro h1 {
-  font-size: 3rem;
+  font-size: 5rem;
   line-height: 1;
 }
 
@@ -3987,11 +3974,10 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   text-align: center;
 }
 
-#main h2 a:hover{
+#main h2 a:hover {
   color: #ffa01b !important;
   transition: 0.5s;
 }
-
 
 @media screen and (max-width: 1280px) {
   #main > .post {

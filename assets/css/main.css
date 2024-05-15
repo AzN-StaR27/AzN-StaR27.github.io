@@ -2747,13 +2747,9 @@ input[type="radio"]:focus + label:before {
   border: none;
 }
 
-#MainProjectImg:hover {
-  border: 2px solid #ffa01b;
+.react-style {
+  color: rgb(0, 216, 255);
 }
-
-/* .image img {
-			 display: block; 
-		} */
 
 .image.left,
 .image.right {

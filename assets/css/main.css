@@ -308,7 +308,6 @@ h6 a {
 h1 {
   font-size: 4rem;
   line-height: 1.1;
-  margin: 0 0 2rem 0;
 }
 
 .animate-character {
@@ -3453,7 +3452,7 @@ body.is-preload #wrapper.fade-in:before {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 10px;
   -moz-flex-direction: column;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
@@ -3469,7 +3468,7 @@ body.is-preload #wrapper.fade-in:before {
   cursor: default;
   text-align: center;
   z-index: 1;
-  min-height: 105vh;
+  min-height: 105dvh;
 }
 
 #intro input,
@@ -3552,7 +3551,7 @@ body.is-preload #wrapper.fade-in:before {
 }
 
 #intro h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   line-height: 1;
 }
 
@@ -3641,7 +3640,6 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   #intro h1 {
     font-size: 3.25rem;
     line-height: 1.1;
-    margin-bottom: 1rem;
   }
 
   #intro p {

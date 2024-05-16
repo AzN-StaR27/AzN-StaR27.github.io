@@ -14,26 +14,22 @@ body {
 .infos {
   background-color: rgb(127, 190, 197);
   box-sizing: border-box;
-
 }
 
-.infos-top{
+.infos-top {
   display: flex;
 }
 
-
-img{
+img {
   width: 150px;
   height: auto;
   border-radius: 50px 50px 10px 10px;
   margin: 10px 15px;
 }
 
-
 .top-part {
   min-height: 40vh;
 }
-
 
 .bottom-part {
   min-height: 60vh;
@@ -96,11 +92,9 @@ h4 {
   margin-bottom: 3px;
 }
 
-ul
-{
+ul {
   margin-top: 10px;
 }
-
 
 li {
   list-style: none;
@@ -160,13 +154,15 @@ a {
 }
 
 .formation-technocite,
-.bachelier-condorcet, .formation-online {
+.bachelier-condorcet,
+.formation-online {
   margin-top: 25px;
   margin-bottom: 25px;
 }
 
 .formation-technocite p:last-child,
-.bachelier-condorcet p:last-child, .formation-online p:last-child {
+.bachelier-condorcet p:last-child,
+.formation-online p:last-child {
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -209,6 +205,7 @@ a {
   }
 
   .infos,
+  .title,
   .profil,
   .profil p,
   .skills,
@@ -271,5 +268,11 @@ a {
 
   p {
     margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .infos-top {
+    display: block;
   }
 }

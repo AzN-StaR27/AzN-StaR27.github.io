@@ -434,7 +434,7 @@ a {
 
 a:hover {
   border-bottom-color: transparent;
-  color: #18bfef !important;
+  color: #18bfef;
 }
 
 strong,
@@ -3971,9 +3971,13 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   text-align: center;
 }
 
-#main h2 a:hover {
+#wide-screen h2 a:hover,
+#wide-screen .button:hover {
   color: #ffa01b !important;
   transition: 0.5s;
+}
+#wide-screen .button:hover {
+  box-shadow: inset 0 0 0 2px #ffa01b;
 }
 
 @media screen and (max-width: 1280px) {

@@ -114,6 +114,11 @@ body {
   line-height: 1;
 }
 
+* {
+  scrollbar-color: rgb(245, 245, 245) rgb(30, 39, 47);
+  scrollbar-width: thin;
+}
+
 ol,
 ul {
   list-style: none;
@@ -2313,6 +2318,25 @@ button.large,
   padding: 0 2.75rem;
 }
 
+/* .button {
+  position: relative;
+}
+.button::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  background: url("../../images/arrow-right-up.png") center/cover;
+  background-position: center/cover;
+  // background-color: #18bfef; 
+}
+
+.button::after:hover {
+  background: url("../../images/arrow-right-up2.png");
+} */
+
 @media screen and (max-width: 980px) {
   input[type="submit"],
   input[type="reset"],
@@ -3974,12 +3998,12 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   text-align: center;
 }
 
-#wide-screen h2 a:hover,
-#wide-screen .button:hover {
+.wide-screen h2 a:hover,
+.wide-screen .button:hover {
   color: #ffa01b !important;
   transition: 0.5s;
 }
-#wide-screen .button:hover {
+.wide-screen .button:hover {
   box-shadow: inset 0 0 0 2px #ffa01b;
 }
 
@@ -4113,7 +4137,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   #main > * {
     padding: 2rem 2rem 0.1rem 2rem;
   }
-  #wide-screen {
+  .wide-screen {
     display: none;
   }
   .button:last-child {
@@ -4128,7 +4152,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 }
 
 @media screen and (min-width: 737px) {
-  #small-screen {
+  .small-screen {
     display: none;
   }
 
@@ -4138,6 +4162,9 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 
   #intro img {
     width: 400px;
+    border: 3px solid rgb(155, 209, 230);
+    border-radius: 50%;
+    animation: morph 8s infinite ease-in-out;
   }
 }
 
@@ -4892,5 +4919,19 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
         visibility: visible;
       }
     }
+  }
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
   }
 }

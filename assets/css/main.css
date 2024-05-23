@@ -3998,12 +3998,12 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   text-align: center;
 }
 
-.wide-screen h2 a:hover,
-.wide-screen .button:hover {
+.main-project h2 a:hover,
+.main-project .button:hover {
   color: #ffa01b !important;
   transition: 0.5s;
 }
-.wide-screen .button:hover {
+.main-project .button:hover {
   box-shadow: inset 0 0 0 2px #ffa01b;
 }
 

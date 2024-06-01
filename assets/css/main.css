@@ -2824,7 +2824,7 @@ input[type="radio"]:focus + label:before {
 .image.main img {
   width: 100%;
   border-radius: 20px;
-  margin: 1rem 0;
+  /* margin: 1rem 0; */
 }
 
 @media screen and (max-width: 736px) {
@@ -3125,7 +3125,7 @@ header.major {
 }
 
 header.major > :last-child {
-  margin-bottom: 0;
+  margin-bottom: 0.5rem;
 }
 
 header.major > p {
@@ -3493,7 +3493,7 @@ body.is-preload #wrapper.fade-in:before {
   cursor: default;
   text-align: center;
   z-index: 1;
-  min-height: 105dvh;
+  min-height: 100dvh;
 }
 
 #intro input,
@@ -3576,7 +3576,7 @@ body.is-preload #wrapper.fade-in:before {
 }
 
 #intro h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 1;
 }
 
@@ -3980,7 +3980,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 }
 
 #main > .post {
-  padding: 2rem 8rem 2rem 8rem;
+  padding: 1rem 8rem 1rem 8rem;
 }
 
 #main > .post header.major > .date {
@@ -3989,14 +3989,16 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 
 #main > .post header.major > h1,
 #main > .post header.major h2 {
-  font-size: 4rem;
+  font-size: 2rem;
   line-height: 1.1;
-  margin: 0 0 2rem 0;
+  margin: 0 0 .5rem 0;
 }
 
 #main > .post.featured {
   text-align: center;
 }
+
+
 
 .main-project h2 a:hover,
 .main-project .button:hover {

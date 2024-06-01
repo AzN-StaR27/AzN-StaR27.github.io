@@ -843,3 +843,59 @@ footer p {
     gap: 30px;
   }
 }
+
+.burger {
+  background: url(../images/menuBurger.png) center/cover;
+  width: 3rem;
+  height: 3rem;
+  transition: 0.5s;
+}
+.burger.active {
+  background: url(../images/cross.png) center/cover;
+}
+
+.menu-burger {
+  position: fixed;
+  height: 100%;
+  width: 50vw;
+  top: 0;
+  right: 0;
+  transform: translateX(0) translateY(0);
+  transition: 1.5s;
+  background-color: rgb(251, 88, 73, 0.4);
+  padding: 50px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.menu-burger::after {
+  content: "X";
+  font-size: 3rem;
+  position: fixed;
+  top: 30%;
+  right: 0;
+  padding-right: 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.menu-burger li a {
+  font-size: 3rem;
+  color: white;
+  text-decoration: none;
+}
+
+.menu-burger li a:hover {
+  border-bottom: 1px solid white;
+  padding: 0 20px;
+}
+
+.menu-burger.active {
+  display: flex;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  transition: 1.5s;
+}
